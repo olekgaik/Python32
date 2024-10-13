@@ -1,11 +1,7 @@
 zwrotka-1.txt
 zwrotka-2.txt
 refren-1.txt
-Wy się nie dziwcie, śliczni panowie
-Sześć lat po świecie tułał się człowiek
-A tutaj Polska i harfa eolska
-W ogóle cud jak z nut
-
+zwrotka-3.txt
 Liryka, liryka
 Tkliwa dynamika
 Angelologia i dal...
