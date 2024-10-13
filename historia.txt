@@ -1,0 +1,485 @@
+$ git log -p piosenka.txt
+commit 40d1da7c693b3d7dd4fd766a7cca29f6cb60c3f0 (HEAD -> main)
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 22:08:08 2024 +0200
+
+    usuniecie zdublowanych plikow refrenu, zmiana nazwy pierwszego refrenu na refren.txt i modyfikacja pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d114d61..3d4363c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,9 @@
+ zwrotka-1.txt
+ zwrotka-2.txt
+-refren-1.txt
++refren.txt
+ zwrotka-3.txt
+-refren-2.txt
+-refren-3.txt
++refren.txt
++refren.txt
+ zwrotka-4.txt
+-refren-4.txt
+-refren-5.txt
++refren.txt
++refren.txt
+
+commit d5c2167745074aff8756fff6fbd177e5f5c4e5a6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:52:49 2024 +0200
+
+    przeniesienie 5 refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 85d700e..d114d61 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,9 +6,4 @@ refren-2.txt
+ refren-3.txt
+ zwrotka-4.txt
+ refren-4.txt
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal...
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal
++refren-5.txt
+
+commit 644b9b8b13e89e46a2e31e8f62e3d1a48b6a7f0f
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:51:54 2024 +0200
+
+    przeniesienie 4 refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 636d967..85d700e 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -5,13 +5,7 @@ zwrotka-3.txt
+ refren-2.txt
+ refren-3.txt
+ zwrotka-4.txt
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal...
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal
+-
++refren-4.txt
+ Liryka, liryka
+ Tkliwa dynamika
+ Angelologia i dal...
+
+commit d3693f201b47094f6974d8eee2777906abc774c6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:50:53 2024 +0200
+
+    przeniesienie 4 zwrotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 52cbf73..636d967 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,11 +4,7 @@ refren-1.txt
+ zwrotka-3.txt
+ refren-2.txt
+ refren-3.txt
+-A po pogrzebie pod korniszon
+-Niech epitafium mi napiszą:
+-Tu leży magik i małpiszon
+-Pod spodem taki tekst
+-
++zwrotka-4.txt
+ Liryka, liryka
+ Tkliwa dynamika
+ Angelologia i dal...
+
+commit dce5885983aab2af0cb5ae2a826436a16e733068
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:49:45 2024 +0200
+
+    przeniesienie 3 refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 9970075..52cbf73 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -3,13 +3,7 @@ zwrotka-2.txt
+ refren-1.txt
+ zwrotka-3.txt
+ refren-2.txt
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal...
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal
+-
++refren-3.txt
+ A po pogrzebie pod korniszon
+ Niech epitafium mi napiszą:
+ Tu leży magik i małpiszon
+
+commit 736b4c550aa4c57e94f01f4e989e6502871b791f
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:48:55 2024 +0200
+
+    przeniesienie 2 refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 3f4654a..9970075 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,13 +2,7 @@ zwrotka-1.txt
+ zwrotka-2.txt
+ refren-1.txt
+ zwrotka-3.txt
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal...
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal
+-
++refren-2.txt
+ Liryka, liryka
+ Tkliwa dynamika
+ Angelologia i dal...
+
+commit c16954996c0483e07a20a094a0e2c4a3e90177f3
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:46:28 2024 +0200
+
+    przeniesienie 3 zwrotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index fb9a697..3f4654a 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,7 @@
+ zwrotka-1.txt
+ zwrotka-2.txt
+ refren-1.txt
+-Wy się nie dziwcie, śliczni panowie
+-Sześć lat po świecie tułał się człowiek
+-A tutaj Polska i harfa eolska
+-W ogóle cud jak z nut
+-
++zwrotka-3.txt
+ Liryka, liryka
+ Tkliwa dynamika
+ Angelologia i dal...
+
+commit 5c2529b118ffada93e93d7fe97f244028949b16e
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:44:21 2024 +0200
+
+    przeniesienie 1 refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2227849..fb9a697 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,12 +1,6 @@
+ zwrotka-1.txt
+ zwrotka-2.txt
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal...
+-Liryka, liryka
+-Tkliwa dynamika
+-Angelologia i dal
+-
++refren-1.txt
+ Wy się nie dziwcie, śliczni panowie
+ Sześć lat po świecie tułał się człowiek
+ A tutaj Polska i harfa eolska
+
+commit 6feb8d72f8395cac23295691d78c77c15253c813
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:39:15 2024 +0200
+
+    przeniesienie 2 zwrotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 25a270a..2227849 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,5 @@
+ zwrotka-1.txt
+-Idę, powiedzmy, wieczorem z Arturem
+-I nagle: księżyc wschodzi nad murem
+-Artur ostrzega, bo dobry kolega:
+-- Nie patrz — a ja jak bóbr:
+-
++zwrotka-2.txt
+ Liryka, liryka
+ Tkliwa dynamika
+ Angelologia i dal...
+
+commit 7ece766cfb47e912e45fe9a48012146387156ca6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:36:19 2024 +0200
+
+    przeniesienie 1 zwrotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 19900e0..25a270a 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,8 +1,4 @@
+-Sam nie rozumiem, skąd to mi się bierze
+-Że jestem mitologiczne zwierzę
+-Ni to świnio-byk, ni to koto-pies
+-W ogóle z innych stron
+-
++zwrotka-1.txt
+ Idę, powiedzmy, wieczorem z Arturem
+ I nagle: księżyc wschodzi nad murem
+ Artur ostrzega, bo dobry kolega:
+
+commit f880a52515e8f4ff7ad49f8f4857714aac23a931
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:28:27 2024 +0200
+
+    Dodanie pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..19900e0
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,54 @@
++Sam nie rozumiem, skąd to mi się bierze
++Że jestem mitologiczne zwierzę
++Sam nie rozumiem, skąd to mi się bierze
++Że jestem mitologiczne zwierzę
++Ni to świnio-byk, ni to koto-pies
++W ogóle z innych stron
++
++Idę, powiedzmy, wieczorem z Arturem
++I nagle: księżyc wschodzi nad murem
++Artur ostrzega, bo dobry kolega:
++- Nie patrz — a ja jak bóbr:
++
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
++
++Wy się nie dziwcie, śliczni panowie
++Sześć lat po świecie tułał się człowiek
++A tutaj Polska i harfa eolska
++W ogóle cud jak z nut
++
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
++
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
++
++A po pogrzebie pod korniszon
++Niech epitafium mi napiszą:
++Tu leży magik i małpiszon
++Pod spodem taki tekst
++
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
++
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
+
+$ git log -p refren.txt
+commit 40d1da7c693b3d7dd4fd766a7cca29f6cb60c3f0 (HEAD -> main)
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 22:08:08 2024 +0200
+
+    usuniecie zdublowanych plikow refrenu, zmiana nazwy pierwszego refrenu na refren.txt i modyfikacja pliku piosenka.txt
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..bfcf271
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,6 @@
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal...
++Liryka, liryka
++Tkliwa dynamika
++Angelologia i dal
+
+$ git log -p zwrotka-1.txt
+commit 7ece766cfb47e912e45fe9a48012146387156ca6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:36:19 2024 +0200
+
+    przeniesienie 1 zwrotki
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..5443f2d
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,4 @@
++Sam nie rozumiem, skąd to mi się bierze
++Że jestem mitologiczne zwierzę
++Ni to świnio-byk, ni to koto-pies
++W ogóle z innych stron
+
+$ git log -p zwrotka-2.txt
+commit 6feb8d72f8395cac23295691d78c77c15253c813
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:39:15 2024 +0200
+
+    przeniesienie 2 zwrotki
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..8258b67
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,4 @@
++Idę, powiedzmy, wieczorem z Arturem
++I nagle: księżyc wschodzi nad murem
++Artur ostrzega, bo dobry kolega:
++- Nie patrz — a ja jak bóbr:
+
+$ git log -p zwrotka-3.txt
+commit c16954996c0483e07a20a094a0e2c4a3e90177f3
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:46:28 2024 +0200
+
+    przeniesienie 3 zwrotki
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..2b75c76
+--- /dev/null
++++ b/zwrotka-3.txt
+@@ -0,0 +1,4 @@
++Wy się nie dziwcie, śliczni panowie
++Sześć lat po świecie tułał się człowiek
++A tutaj Polska i harfa eolska
++W ogóle cud jak z nut
+
+$ git log -p zwrotka-4.txt
+commit d3693f201b47094f6974d8eee2777906abc774c6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:50:53 2024 +0200
+
+    przeniesienie 4 zwrotki
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..45cac38
+--- /dev/null
++++ b/zwrotka-4.txt
+@@ -0,0 +1,4 @@
++A po pogrzebie pod korniszon
++Niech epitafium mi napiszą:
++Tu leży magik i małpiszon
++Pod spodem taki tekst
+
+$ git log
+commit 40d1da7c693b3d7dd4fd766a7cca29f6cb60c3f0 (HEAD -> main)
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 22:08:08 2024 +0200
+
+    usuniecie zdublowanych plikow refrenu, zmiana nazwy pierwszego refrenu na refren.txt i modyfikacja pliku piosenka.txt
+
+commit dba9edf875d8e1f83c1e0ca2bede5ac2a7b45a07
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 22:00:24 2024 +0200
+
+    Revert "usuniecie ostatniej linii z refrenu-1"
+
+    This reverts commit ab9864d8b3fc0b7d6e23849e743970bbcb1657d4.
+
+commit ab9864d8b3fc0b7d6e23849e743970bbcb1657d4
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:55:48 2024 +0200
+
+    usuniecie ostatniej linii z refrenu-1
+
+commit d5c2167745074aff8756fff6fbd177e5f5c4e5a6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:52:49 2024 +0200
+
+    przeniesienie 5 refrenu
+
+commit 644b9b8b13e89e46a2e31e8f62e3d1a48b6a7f0f
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:51:54 2024 +0200
+
+    przeniesienie 4 refrenu
+
+commit d3693f201b47094f6974d8eee2777906abc774c6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:50:53 2024 +0200
+
+    przeniesienie 4 zwrotki
+
+commit dce5885983aab2af0cb5ae2a826436a16e733068
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:49:45 2024 +0200
+
+    przeniesienie 3 refrenu
+
+commit 736b4c550aa4c57e94f01f4e989e6502871b791f
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:48:55 2024 +0200
+
+    przeniesienie 2 refrenu
+
+commit c16954996c0483e07a20a094a0e2c4a3e90177f3
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:46:28 2024 +0200
+
+    przeniesienie 3 zwrotki
+
+commit 5c2529b118ffada93e93d7fe97f244028949b16e
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:44:21 2024 +0200
+
+    przeniesienie 1 refrenu
+
+commit 6feb8d72f8395cac23295691d78c77c15253c813
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:39:15 2024 +0200
+
+    przeniesienie 2 zwrotki
+
+commit 7ece766cfb47e912e45fe9a48012146387156ca6
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:36:19 2024 +0200
+
+    przeniesienie 1 zwrotki
+
+commit f880a52515e8f4ff7ad49f8f4857714aac23a931
+Author: olekgaik <olekgaik@o2.pl>
+Date:   Sun Oct 13 21:28:27 2024 +0200
+
+    Dodanie pliku piosenka.txt
+
