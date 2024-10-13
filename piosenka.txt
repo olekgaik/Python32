@@ -4,11 +4,7 @@ refren-1.txt
 zwrotka-3.txt
 refren-2.txt
 refren-3.txt
-A po pogrzebie pod korniszon
-Niech epitafium mi napiszą:
-Tu leży magik i małpiszon
-Pod spodem taki tekst
-
+zwrotka-4.txt
 Liryka, liryka
 Tkliwa dynamika
 Angelologia i dal...
