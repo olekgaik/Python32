@@ -2,13 +2,7 @@ zwrotka-1.txt
 zwrotka-2.txt
 refren-1.txt
 zwrotka-3.txt
-Liryka, liryka
-Tkliwa dynamika
-Angelologia i dal...
-Liryka, liryka
-Tkliwa dynamika
-Angelologia i dal
-
+refren-2.txt
 Liryka, liryka
 Tkliwa dynamika
 Angelologia i dal...
