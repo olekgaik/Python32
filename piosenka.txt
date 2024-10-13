@@ -3,13 +3,7 @@ zwrotka-2.txt
 refren-1.txt
 zwrotka-3.txt
 refren-2.txt
-Liryka, liryka
-Tkliwa dynamika
-Angelologia i dal...
-Liryka, liryka
-Tkliwa dynamika
-Angelologia i dal
-
+refren-3.txt
 A po pogrzebie pod korniszon
 Niech epitafium mi napiszą:
 Tu leży magik i małpiszon
